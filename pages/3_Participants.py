@@ -15,8 +15,8 @@ st.write("(peut prendre quelques secondes à charger)")
 # --- Google Sheets setup ---
 scope = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
-
-gsheet_json = json.loads(st.secrets["GSHEET_JSON"])
+gsheet_json = dict(st.secrets["GSHEET"])
+#gsheet_json = json.loads(st.secrets["GSHEET_JSON"])
 creds = ServiceAccountCredentials.from_json_keyfile_dict(gsheet_json, scope)
 
 #creds = ServiceAccountCredentials.from_json_keyfile_name("service_account_key.json", scope)
