@@ -15,7 +15,7 @@ Nous partons cette année à **La Toussuire**, une station située à **1 750 m 
 Avec ses **310 km de pistes** variées, elle est idéale pour profiter d'une semaine de ski et se mettre des caisses.
 """)
 
-carte_sybelles = Image.open("images\screenshot_emplacement_sybelles.png")
+carte_sybelles = Image.open("https://raw.githubusercontent.com/jeanuguili/ski_five_stars_march_2026/main/images/screenshot_emplacement_sybelles.png")
 st.image(carte_sybelles, caption="Les Sybelles", use_container_width=True)
 
 st.header("La résidence")
@@ -32,9 +32,9 @@ st.subheader("L'emplacement 📍")
 st.write("""
 Située à 300m du centre ville, 50m de la piste débutants "Grands Lutins" et 300m de la piste bleue Comborcière, l'emplacement offre un parfait équilibre entre tranquillité et proximité de l'animation.
 """)
-carte_alpage = Image.open("images\screenshot_emplacement_residence.png")
+carte_alpage = Image.open("https://raw.githubusercontent.com/jeanuguili/ski_five_stars_march_2026/main/images/screenshot_emplacement_residence.png")
 st.image(carte_alpage, caption="", use_container_width=True)
-carte_alpage_large = Image.open("images\screenshot_emplacement_residence_large.png")
+carte_alpage_large = Image.open("https://raw.githubusercontent.com/jeanuguili/ski_five_stars_march_2026/main/images/screenshot_emplacement_residence_large.png")
 st.image(carte_alpage_large, caption="", use_container_width=True)
 st.markdown('<a href="https://skimap.org/skiareas/view/765" target="_blank">Plan des pistes</a>', unsafe_allow_html=True)
 
