@@ -31,9 +31,6 @@ sheet = client.open_by_url(sheet_url).sheet1
 data = sheet.get_all_records()
 df = pd.DataFrame(data)
 
-# Remplacer True/False par ✅ ou ❌
-df["Acompte payé"] = df["Acompte payé"].apply(lambda x: "✅" if x=="TRUE" else "❌")
-df["Total payé"] = df["Total payé"].apply(lambda x: "✅" if x=="TRUE" else "❌")
 # --- Affichage ---
 st.dataframe(df,hide_index=True, use_container_width=True)
 st.write("Remboursement via virement ou Wero")
