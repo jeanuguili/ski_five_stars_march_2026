@@ -40,7 +40,7 @@ st.write("""
 - Coût logement par personne : 109.64€
 - Coût forfait 6 jours : 173€
 - Coût skis 6 jours : 63€
-- Coût Snowboard 6 jours 94.75€
+- Coût snowboard 6 jours : 94.75€
 - Si 8 participants, le coût de logement de la 9ème place est divisée en 8 soit 109.64/8 = 13.7€
 - Taxe de séjour : 2,53€ par personne par jour, soit 17,71€ par personne
 - Caution : environ 400€ pour l'appartement
