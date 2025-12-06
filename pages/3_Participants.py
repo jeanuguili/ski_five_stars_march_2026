@@ -39,6 +39,6 @@ st.subheader("Frais additionnels sur place")
 st.write("""
 - Taxe de séjour : 2,53€ par personne par jour, soit 17,71€ par personne
 - Caution : environ 400€ pour l'appartement
-- SNowboard : ajoute entre 10 et 20€ pour Mireille
+- Snowboard : ajoute entre 31.75€ (snow + boots)
 """)
 
